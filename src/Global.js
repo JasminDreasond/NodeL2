@@ -17,6 +17,10 @@ global.utils = {
         process.exit();
     },
 
+    infoError(prefix, ...params) {
+        console.info('\x1b[31m' + prefix.slice(0, 10) + ' '.repeat(10 - Math.min(prefix.length, 10)) + ' :: ' + require('util').format(...params) + '\x1b[0m');
+    },
+
     currentDate() {
         return new Date().toISOString().slice(0, 10);
     },

@@ -4,7 +4,7 @@
     "description": "L2 Chronicle 2 server emulator in NodeJS",
     "author": "Dennis Koluris",
     "scripts": {
-        "NodeL2": "node --openssl-legacy-provider src/NodeL2"
+        "start": "node --openssl-legacy-provider src/NodeL2"
     },
     "dependencies": {
         "blowfish-ecb": "^1.0.2",

@@ -23,6 +23,7 @@
 
 ## Run
 ⚠️ It is advised to reset the database with the `database/install` script after **each pull** from the repo. A lot of quintessential implementation is worked on.
+* Go to the `config` folder and create a `default.ini` file, defining your personal settings for your server
 * Launch server with `npm run --silent NodeL2`
 * Fire-up **LINEAGE II Client** and authenticate
 * In order to access the Admin panel, use this in the chat prompt: `.admin`
